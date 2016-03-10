@@ -19,7 +19,7 @@ public class SampleController {
         return App.echo("My echoed scala string");
     }
 
-    public static void main(String[] args) throws Exception {
-        SpringApplication.run(SampleController.class, args);
-    }
+//    public static void main(String[] args) throws Exception {
+//        SpringApplication.run(SampleController.class, args);
+//    }
 }

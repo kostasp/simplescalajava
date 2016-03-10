@@ -23,6 +23,7 @@
         <scala.compat.version>2.10</scala.compat.version>
         <spark.version>1.6.0</spark.version>
         <es-hadooop.version>2.2.0</es-hadooop.version>
+
     </properties>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -30,6 +31,10 @@
         <version>1.3.3.RELEASE</version>
     </parent>
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
